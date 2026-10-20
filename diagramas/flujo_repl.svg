@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="420" viewBox="0 0 1300 420">
+<rect width="1300" height="420" fill="#fff"/>
+<style>.h{font:bold 28px Arial;fill:#0f172a}.t{font:18px Arial;fill:#1e293b}.b{fill:#f8fafc;stroke:#334155;stroke-width:3}.a{stroke:#475569;stroke-width:4;fill:none;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker></defs>
+<text x="650" y="50" text-anchor="middle" class="h">Control del REPL y lectura del divisor</text>
+<g transform="translate(30,150)"><rect width="180" height="100" rx="16" class="b"/><text x="90" y="43" text-anchor="middle" class="t">REPL</text><text x="90" y="72" text-anchor="middle" class="t">luz regs</text></g>
+<g transform="translate(250,150)"><rect width="180" height="100" rx="16" class="b"/><text x="90" y="43" text-anchor="middle" class="t">argc / argv</text><text x="90" y="72" text-anchor="middle" class="t">validación</text></g>
+<g transform="translate(470,150)"><rect width="180" height="100" rx="16" class="b"/><text x="90" y="43" text-anchor="middle" class="t">backend</text><text x="90" y="72" text-anchor="middle" class="t">regs o SDK</text></g>
+<g transform="translate(690,150)"><rect width="160" height="100" rx="16" class="b"/><text x="80" y="43" text-anchor="middle" class="t">ADC0</text><text x="80" y="72" text-anchor="middle" class="t">GP26</text></g>
+<g transform="translate(890,150)"><rect width="160" height="100" rx="16" class="b"/><text x="80" y="43" text-anchor="middle" class="t">LDR + 10 kΩ</text><text x="80" y="72" text-anchor="middle" class="t">divisor 3V3</text></g>
+<g transform="translate(1090,150)"><rect width="180" height="100" rx="16" class="b"/><text x="90" y="43" text-anchor="middle" class="t">resultado</text><text x="90" y="72" text-anchor="middle" class="t">voltaje + % ADC</text></g>
+<path d="M210 200 H250" class="a"/><path d="M430 200 H470" class="a"/><path d="M650 200 H690" class="a"/><path d="M850 200 H890" class="a"/><path d="M1050 200 H1090" class="a"/>
+</svg>

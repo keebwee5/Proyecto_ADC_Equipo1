@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+<rect width="1200" height="650" fill="#fff"/>
+<style>.h{font:bold 30px Arial;fill:#0f172a}.t{font:20px Arial;fill:#1e293b}.b{fill:#f8fafc;stroke:#334155;stroke-width:3}.a{stroke:#475569;stroke-width:4;fill:none;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker></defs>
+<text x="600" y="50" text-anchor="middle" class="h">Arquitectura funcional del ADC</text>
+<rect x="40" y="250" width="170" height="100" rx="15" class="b"/><text x="125" y="290" text-anchor="middle" class="t">LDR + 10 kΩ</text><text x="125" y="325" text-anchor="middle" class="t">Vnodo</text>
+<rect x="260" y="250" width="170" height="100" rx="15" class="b"/><text x="345" y="290" text-anchor="middle" class="t">GP26</text><text x="345" y="325" text-anchor="middle" class="t">ADC0</text>
+<rect x="480" y="250" width="170" height="100" rx="15" class="b"/><text x="565" y="290" text-anchor="middle" class="t">MUX</text><text x="565" y="325" text-anchor="middle" class="t">AINSEL</text>
+<rect x="700" y="205" width="220" height="190" rx="15" class="b"/><text x="810" y="255" text-anchor="middle" class="t">Sample &amp; Hold</text><text x="810" y="300" text-anchor="middle" class="t">Comparador</text><text x="810" y="345" text-anchor="middle" class="t">DAC + SAR</text>
+<rect x="970" y="250" width="180" height="100" rx="15" class="b"/><text x="1060" y="290" text-anchor="middle" class="t">RESULT</text><text x="1060" y="325" text-anchor="middle" class="t">12 bits</text>
+<path d="M210 300 H260" class="a"/><path d="M430 300 H480" class="a"/><path d="M650 300 H700" class="a"/><path d="M920 300 H970" class="a"/>
+<rect x="720" y="465" width="180" height="85" rx="15" class="b"/><text x="810" y="500" text-anchor="middle" class="t">FIFO x8</text><text x="810" y="530" text-anchor="middle" class="t">IRQ / DMA</text>
+<path d="M1060 350 V430 H900 V465" class="a"/>
+<rect x="970" y="465" width="180" height="85" rx="15" class="b"/><text x="1060" y="500" text-anchor="middle" class="t">CPU</text><text x="1060" y="530" text-anchor="middle" class="t">bus interno</text>
+<path d="M900 508 H970" class="a"/>
+<text x="600" y="610" text-anchor="middle" class="t">Proyecto: conversión one-shot. FIFO, IRQ y DMA se explican, pero no se usan en esta demo de luz.</text>
+</svg>
