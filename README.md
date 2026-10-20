@@ -2,7 +2,7 @@
 
 **Actividad integradora por equipos · Equipo 1 · Periférico: ADC**
 
-Integrantes: **[Completar]**
+Integrantes: Yohualli Ollin Luna Reyes y Diego Navarro Sanchez
 
 ---
 
